@@ -1,0 +1,128 @@
+@import url(./variables.css);
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    margin: 50px 150px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16.5px;
+    box-sizing: border-box;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__logo {
+    color: var(--primaryColor);
+    font-weight: 600;
+    font-size: 1.9rem;
+}
+.header__menu {
+    display: flex;
+    align-items: center;
+}
+.header__menu--items {
+    margin-left: 70px;
+    font-size: 1.3rem;
+}
+.button--register {
+    font-size: 1.3rem;
+    padding: 15px 40px;
+    border: 0.00001rem solid rgb(194, 191, 191);
+    border-radius: 100px;
+    width: max-content;
+    height: max-content;
+    background: none;
+    font-weight: 600;
+    color: var(--primaryColor);
+}
+.active {
+    border: 0.00001rem solid var(--primaryColor);
+    color: white;
+    background: var(--primaryColor);
+}
+.link {
+   color: var(--text);
+   text-decoration: none;
+   transition: 0.3s;
+}
+.link:hover {
+    color: var(--primaryColor);
+}
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px 0px 220px 0px;
+}
+.block1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40vw;
+    height: 60vh;
+    /* min-height:500px; */
+    /* background: red;     */
+    /* margin: 220px 0px; */
+}
+.block2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50vw;
+    /* min-height:500px; */
+    background: pink;    
+    /* margin: 220px 0px; */
+    border-radius: 30px;
+
+}
+.play {
+    padding: 25px 55px;
+    font-size: 1.5rem;
+}
+.main__block1 {
+   
+}
+.sologan {
+    font-size: 1.3rem;
+    color: var(--primaryColor);
+    font-weight: 800;
+}
+.sologan__content {
+    margin: 70px 0px;
+    font-size: 5.5rem;
+    font-weight: 600;
+    color: #37684A;
+}
+.text__content {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text);
+    line-height: 27px;
+    margin: 40px 0px;
+}
+.main__block2 {
+    display: flex;
+    align-items: center;
+    padding-top: 80px;
+}
+.more {
+    font-size: 1.3rem;
+    font-weight: 600;
+    margin-left: 22px;
+    color: var(--primaryColor);
+}
+.more:hover {
+    font-size: 1.6rem;
+    cursor: pointer;
+    transition: 0.3s;
+    color: rgb(160, 255, 184);
+}
