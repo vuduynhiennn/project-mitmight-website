@@ -1,5 +1,6 @@
 @import url(./variables.css);
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap');
+@import url(./layoyut.css);
 
 body {
     height: 100vh;
@@ -24,6 +25,7 @@ body {
 .header__menu {
     display: flex;
     align-items: center;
+    position: relative;
 }
 .header__menu--items {
     margin-left: 70px;
@@ -55,9 +57,10 @@ body {
 }
 .main {
    display: grid;
-   margin-top: 150px;
+   margin-top: 100px;
    grid-template-columns: 0.6fr 1fr;
-   height: max-content;
+   /* height: max-content; */
+   grid-gap: 20px;
 }
 .block1 {
     display: flex;
@@ -113,11 +116,11 @@ body {
   .slider {
     display: flex;
     align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    border-radius: 10px;
     background: var(--primaryColor);
-    background-image: url(./images/1.jpg);
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    background-image: url(./images/3.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
